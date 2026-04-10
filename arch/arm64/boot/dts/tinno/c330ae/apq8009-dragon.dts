@@ -335,13 +335,6 @@
 &firmware {
 	android {
 		compatible = "android,firmware";
-		fstab {
-			compatible = "android,fstab";
-			vendor_fstab: vendor {
-			fsmgr_flags = "wait,slotselect";
-			};
-			/delete-node/ system;
-		};
 	};
 };
 

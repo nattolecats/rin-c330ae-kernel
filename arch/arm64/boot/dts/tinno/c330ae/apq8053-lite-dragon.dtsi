@@ -145,12 +145,6 @@
 			compatible = "android,vbmeta";
 			parts = "vbmeta,boot,system,vendor,bluetooth,modem,dsp,oem";
 		};
-		fstab {
-			/delete-node/ system;
-			vendor {
-				fsmgr_flags = "wait,slotselect,avb";
-			};
-		};
 	};
 };
 
